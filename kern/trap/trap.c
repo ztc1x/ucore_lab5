@@ -234,7 +234,7 @@ trap_dispatch(struct trapframe *tf) {
     	ticks ++;
 		if(ticks % TICK_NUM == 0)
 		{
-			print_ticks();
+			//print_ticks();
         /* LAB5 2012011267 */
         /* you should update you lab1 code (just add ONE or TWO lines of code):
          *    Every TICK_NUM cycle, you should set current process's current->need_resched = 1
